@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS - Hari ke 2</title>
+</head>
+<body>
+    <h1>HTML CSS - Hari ke 2</h1>
+
+    <h2>HTML - Ordered List</h2>
+    <p>Buah Favorit:</p>
+    <ol>
+        <li>Apel</li>
+        <li>Pisang</li>
+        <li>Melon</li>
+        <li>Rambutan</li>
+    </ol>
+
+    <hr>
+
+    <p>Daftar Nama Mobil Keren:</p>
+
+    <ul>
+        <li>Tesla</li>
+        <li>Mercedes</li>
+        <li>Toyota</li>
+    </ul>
+
+    <hr>
+
+    <p>
+        Klik <a href="https://google.com">di sini</a>!
+    </p>
+
+    <p>
+        Klik <a target="_blank" href="https://youtube.com">di sini</a>, untuk masuk ke <b>youtube</b>.
+    </p>
+
+    <hr>
+
+    <h2>HTML - Image</h2>
+
+    <img src="diagram-website.png" alt="Gambar diagram website"  width="70">
+
+    <br>
+
+    <img src="https://cdn0-production-images-kly.akamaized.net/_yF6v5E3UuAYZvlipHGcp7HEXEw=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2396228/original/055603500_1540900672-lion-3040797_1920.jpg" alt="Gambar singa" height="100">
+
+    <hr>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Kota Asal</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ahmad</td>
+                <td>Surabaya</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Putra</td>
+                <td>Kendari</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Putri</td>
+                <td>Bogor</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Jumlah = 3 orang</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr>
+
+    <h2>Formulir Registrasi</h2>
+
+    <form action="" method="">
+        <label for="">Nama Lengkap</label>
+        <br>
+        <input type="text" name="namalengkap" placeholder="Nama Lengkap">
+        <br><br>
+
+        <label for="">Tanggal Lahir</label>
+        <br>
+        <input type="date" name="tanggallahir">
+        <br><br>
+
+        <label for="">Jenis Kelamin</label>
+        <br>
+        <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
+        <br>
+        <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan
+        
+        <br><br>
+        <label for="">Hobi</label>
+        <br>
+        <input type="checkbox" name="hobi" value="berenang">Berenang
+        <br>
+        <input type="checkbox" name="hobi" value="futsal">Futsal
+        <br>
+        <input type="checkbox" name="hobi" value="basket">Basket
+
+        <br><br>
+        <label for="">Alamat</label>
+        <br>
+        <textarea placeholder="Alamat lengkap" name="alamat" cols="30" rows="8"></textarea>
+
+        <br><br>
+        <label for="">Kelas Pilihan</label>
+        <br>
+        <select name="pilihan_kelas">
+            <option value="0">--Pilih kelas yang diikuti--</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" name="submit" value="Log in">
+        <input type="reset" value="Reset">
+    </form>
+
+    <hr>
+
+    <h2>Formulir Pendaftaran</h2>
+
+    <form action="">
+        <fieldset>
+            <legend>Biodata Diri</legend>
+
+            <label for="">Nama Lengkap</label>
+            <br>
+            <input type="text" name="namalengkap" placeholder="Nama Lengkap">
+            <br><br>
+
+            <label for="">Tanggal Lahir</label>
+            <br>
+            <input type="date" name="tanggallahir">
+            <br><br>
+
+            <label for="">Jenis Kelamin</label>
+            <br>
+            <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
+            <br>
+            <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan
+        
+        </fieldset>
+        <fieldset>
+            <legend>Kelas Pilihan</legend>
+
+            <label for="">Kelas Pilihan</label>
+            <br>
+            <select name="pilihan_kelas">
+                <option value="0">--Pilih kelas yang diikuti--</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Daftarkan</legend>
+
+            <input type="checkbox"> Dengan ini saya setuju dengan syarat dan ketentuan yang berlaku
+            <br><br>
+            <input type="submit" value="Daftarkan">
+        </fieldset>
+    </form>
+
+</body>
+</html>
