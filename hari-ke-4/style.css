@@ -1,0 +1,80 @@
+html{
+    scroll-padding:80px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: "Montserrat";
+}
+
+header, footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+}
+
+header nav ul{
+    margin:0px;
+    padding:0px;
+}
+
+footer div p{
+    margin:0px;
+}
+
+header{
+    margin-bottom: 35px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 3px solid gray;
+}
+
+.container{
+    width:75%;
+    margin: auto;
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+
+footer div p{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+footer{
+    margin-top:40px;
+}
+
+progress{
+    width:250px;
+    background-color: white;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+progress::-webkit-progress-value {
+    border-radius: 10px;
+    background-color: blue;
+}
